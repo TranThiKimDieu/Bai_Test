@@ -1,0 +1,128 @@
+body{
+  background-color: #eef4f8;
+ }
+ #element_word1{
+    text-align: center;
+    
+ 
+ }
+ .element_word2{
+     margin: 0px;
+ }
+ #element_word2{
+     font-size: 50px;
+     line-height:50px;
+     font-weight:500;
+     text-align: center;
+     margin: 25px;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ 
+ h5{
+     font-family: "Arial", sans-serif;
+ }
+ 
+ 
+ .custom-line{
+     display: block;
+     height: 2px; 
+     width: 80px; 
+     background-color: #e46d30;
+     margin: auto;
+ }
+ 
+ .col-md-2 {
+     width: 10.5cm;
+     padding: 0px;
+     background-color: #f0f5f8;
+ }
+ .row{
+     margin-top: 1cm;
+ }
+ 
+ .item_location{
+     margin-top: 20px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .item_location:hover {
+     color: #e46d30;
+ }
+ .img_time{
+     width: 23px;
+ }
+ .item_info{
+     display: flex;
+     margin-top: 30px;
+ }
+ .day{
+ margin-left: 3px;
+ margin-top: 4px;
+ 
+ }
+ .rat{
+     margin-top: -7px;
+     margin-left: 50px;
+ }
+ .rating {
+     unicode-bidi: bidi-override;
+     color:yellow;
+     font-size: 23px;
+     padding: 0;
+     display: inline-block;
+     
+    
+ }
+ .dashed-line {
+     border-top: 1px dashed #ada3a3; 
+     width: 100%;
+     margin-top: 10px; 
+ }
+ .money{
+     display: flex;
+ }
+ .dola{
+      margin-left:  5px;
+      color: #e46d30;
+ }
+ .arrow-right::after {
+     content: '\2192'; 
+      color: #e46d30;
+      
+ }
+ .info{
+   display: flex;
+   margin-left: 100px;
+ }
+ .info:hover {
+     color: #e46d30;
+ }
+ .element_main{
+     padding: 20px;
+     background-color: #e7f2fa;
+ }
+ .zoom-on-hover {
+     position: relative;
+     overflow: hidden;
+ }
+ 
+ 
+ .zoom-on-hover img {
+     transition: transform 0.3s;
+ }
+ 
+ .zoom-on-hover:hover img {
+     transform: scale(1.2); 
+ }
+ .overlay {
+     position: absolute;
+     top: 50px;
+     left: 50px;
+     width: 90px;
+     height: 22px;
+     background-color: rgb(116, 146, 56);
+     z-index: 1; 
+     color: #ffffff;
+     text-align: center;
+     border-radius: 10%;
+     font-size: small;
+   }
